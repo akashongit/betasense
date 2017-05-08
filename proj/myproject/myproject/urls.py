@@ -18,7 +18,6 @@ from django.contrib import admin
 from rest_framework.authtoken import views as token
 from django.views.decorators.csrf import csrf_exempt
 from login.views import login
-
 urlpatterns = [
 	url(r'^accounts/',include('login.urls')),
     url(r'^admin/', admin.site.urls),

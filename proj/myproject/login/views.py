@@ -15,7 +15,7 @@ def login(request):
         return HttpResponse(middleware.csrf.get_token(request))
 
 class user_login(View):
-	# @csrf_exempt
+	@csrf_exempt
         def get(self,request):
                 if request.user.is_authenticated():
                         username = request.user.username
