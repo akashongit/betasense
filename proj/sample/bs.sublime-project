@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/home/wiz/proj"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/wiz/project"
+		}
+	]
+}
