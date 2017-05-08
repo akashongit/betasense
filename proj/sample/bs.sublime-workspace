@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"x",
+				"xhttp"
+			],
+			[
+				"a",
+				"alert"
+			],
+			[
+				"re",
+				"responseText"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"h",
+				"head	Tag"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"ht",
+				"HttpResponse"
+			],
+			[
+				"la",
+				"last_seen"
+			],
+			[
+				"o",
+				"object"
+			],
+			[
+				"las",
+				"last_login"
+			],
+			[
+				"last",
+				"last_visit"
+			],
+			[
 				"fun",
 				"function"
 			],
@@ -16,10 +60,29 @@
 	"buffers":
 	[
 		{
-			"file": "/home/wiz/proj/myproject/myproject/settings.py",
+			"file": "login.html",
 			"settings":
 			{
-				"buffer_size": 3204,
+				"buffer_size": 2844,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/wiz/project/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 1627,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!-- <!DOCTYPE html>\n<html>\n<head>\n	<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js\"></script>\n</head>\n<body>\n\n<div id=\"demo\">\n<h1>The XMLHttpRequest Object</h1>\n<button type=\"button\" onclick=\"loadDoc()\">Change Content</button>\n</div>\n\n<script>\nfunction loadDoc() {\n  var xhttp = new XMLHttpRequest();\n  xhttp.onreadystatechange = function() {\n    if (this.readyState == 4 && this.status == 200) {\n      document.getElementById(\"demo\").innerHTML =\n      this.responseText;\n    }\n  };\n  xhttp.open(\"GET\", \"file:///home/wiz/proj/sample/ajax.html\", true);\n  xhttp.send();\n}\n</script>\n\n</body>\n</html>\n\n -->",
+			"file": "ajax.html",
+			"file_size": 907,
+			"file_write_time": 131387175704234031,
+			"settings":
+			{
+				"buffer_size": 633,
 				"line_ending": "Unix"
 			}
 		}
@@ -51,16 +114,31 @@
 	},
 	"file_history":
 	[
-		"/home/wiz/proj/samplesite/samplesite/settings.py",
-		"/home/wiz/proj/sample/login.html",
+		"/home/wiz/proj/myproject/login/views.py",
+		"/home/wiz/proj/myproject/myproject/urls.py",
+		"/home/wiz/proj/sample/login2.html",
 		"/home/wiz/proj/sample/main.js",
+		"/home/wiz/proj/sample/server.js",
+		"/home/wiz/proj/myproject/login/models.py",
+		"/home/wiz/proj/myproject/login/urls.py",
+		"/home/wiz/proj/myproject/myproject/settings.py",
+		"/home/wiz/proj/sample/login.html",
+		"/home/wiz/proj/my_project/myproject/urls.py",
+		"/home/wiz/proj/my_project/myproject/settings.py",
+		"/home/wiz/proj/myproject/login/admin.py",
+		"/home/wiz/project/user_login/admin.py",
+		"/home/wiz/proj/my_project/login/admin.py",
+		"/home/wiz/project/olms/settings.py",
+		"/home/wiz/project/olms/settings.pyc",
+		"/home/wiz/project/user_login/models.py",
+		"/home/wiz/proj/samplesite/samplesite/settings.py",
 		"/home/wiz/proj/sample/sdsds.html",
 		"/home/wiz/project/templates/login.html",
 		"/home/wiz/aka.html"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -74,6 +152,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"default",
+			"append"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -96,32 +176,90 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/wiz/proj/myproject/myproject/settings.py",
+					"file": "login.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3204,
+						"buffer_size": 2844,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2271,
-								2271
+								2612,
+								2612
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 900.0,
+						"translation.y": 1000.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/wiz/project/templates/base.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								496,
+								496
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ajax.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								633,
+								633
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

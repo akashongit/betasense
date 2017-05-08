@@ -7,11 +7,16 @@ from django.http import HttpResponseRedirect, HttpResponse
 from .models import *
 from rest_framework.authtoken import views
 import datetime
-
+from django.views.decorators.csrf import csrf_exempt
+from django import middleware
 
 # Create your views here.
+def login(request):
+        return HttpResponse(middleware.csrf.get_token(request))
+
 class user_login(View):
-	def get(self,request):
+	# @csrf_exempt
+        def get(self,request):
                 if request.user.is_authenticated():
                         username = request.user.username
                         user= request.user
