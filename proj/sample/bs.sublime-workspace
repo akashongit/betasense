@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"c",
+				"cs"
+			],
+			[
+				"id",
+				"id_username"
+			],
+			[
 				"x",
 				"xhttp"
 			],
@@ -63,26 +71,23 @@
 			"file": "login.html",
 			"settings":
 			{
-				"buffer_size": 2844,
+				"buffer_size": 3058,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/wiz/project/templates/base.html",
+			"file": "/home/wiz/proj/myproject/login/views.py",
 			"settings":
 			{
-				"buffer_size": 1627,
+				"buffer_size": 2297,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<!-- <!DOCTYPE html>\n<html>\n<head>\n	<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js\"></script>\n</head>\n<body>\n\n<div id=\"demo\">\n<h1>The XMLHttpRequest Object</h1>\n<button type=\"button\" onclick=\"loadDoc()\">Change Content</button>\n</div>\n\n<script>\nfunction loadDoc() {\n  var xhttp = new XMLHttpRequest();\n  xhttp.onreadystatechange = function() {\n    if (this.readyState == 4 && this.status == 200) {\n      document.getElementById(\"demo\").innerHTML =\n      this.responseText;\n    }\n  };\n  xhttp.open(\"GET\", \"file:///home/wiz/proj/sample/ajax.html\", true);\n  xhttp.send();\n}\n</script>\n\n</body>\n</html>\n\n -->",
 			"file": "ajax.html",
-			"file_size": 907,
-			"file_write_time": 131387175704234031,
 			"settings":
 			{
-				"buffer_size": 633,
+				"buffer_size": 1017,
 				"line_ending": "Unix"
 			}
 		}
@@ -114,6 +119,7 @@
 	},
 	"file_history":
 	[
+		"/home/wiz/proj/myproject/myproject/settings.py",
 		"/home/wiz/proj/myproject/login/views.py",
 		"/home/wiz/proj/myproject/myproject/urls.py",
 		"/home/wiz/proj/sample/login2.html",
@@ -121,7 +127,6 @@
 		"/home/wiz/proj/sample/server.js",
 		"/home/wiz/proj/myproject/login/models.py",
 		"/home/wiz/proj/myproject/login/urls.py",
-		"/home/wiz/proj/myproject/myproject/settings.py",
 		"/home/wiz/proj/sample/login.html",
 		"/home/wiz/proj/my_project/myproject/urls.py",
 		"/home/wiz/proj/my_project/myproject/settings.py",
@@ -171,7 +176,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -180,15 +185,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2844,
+						"buffer_size": 3058,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2612,
-								2612
+								1840,
+								1840
 							]
 						],
 						"settings":
@@ -198,40 +203,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1000.0,
+						"translation.y": 790.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/home/wiz/project/templates/base.html",
-					"semi_transient": true,
+					"file": "/home/wiz/proj/myproject/login/views.py",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1627,
+						"buffer_size": 2297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								496,
-								496
+								513,
+								513
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 8,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 117.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -240,15 +245,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 633,
+						"buffer_size": 1017,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								633,
-								633
+								264,
+								264
 							]
 						],
 						"settings":
@@ -259,7 +264,7 @@
 						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
